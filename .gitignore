@@ -1,0 +1,19 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Training artifacts (large / regenerable)
+checkpoints/
+best/
+runs/
+videos/
+wandb/
+outputs/
+*.safetensors
+*.zip
+*.log
